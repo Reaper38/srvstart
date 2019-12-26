@@ -1,0 +1,223 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Release/srvstart.res" /i "\Home\Author\srvstart.v110" /d "NDEBUG" "D:\Home\Author\srvstart.v110\srvstart.rc"" 
+Creating temporary file "C:\TEMP\RSP1DA.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DLL_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Home\Author\srvstart.v110\dll\CmdRunner.cpp"
+"D:\Home\Author\srvstart.v110\dll\ScmConnector.cpp"
+"D:\Home\Author\srvstart.v110\dll\ServiceManager.cpp"
+"D:\Home\Author\srvstart.v110\dll\SrvStart.cpp"
+"D:\Home\Author\srvstart.v110\dll\StringSubstituter.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP1DA.tmp" 
+Creating temporary file "C:\TEMP\RSP1DB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mpr.lib logger.lib /nologo /dll /incremental:no /pdb:"Release/srvstart.pdb" /machine:I386 /out:"Release\srvstart.dll" /implib:"Release/srvstart.lib" 
+.\Release\CmdRunner.obj
+.\Release\ScmConnector.obj
+.\Release\ServiceManager.obj
+.\Release\SrvStart.obj
+.\Release\StringSubstituter.obj
+.\Release\srvstart.res
+]
+Creating command line "link.exe @C:\TEMP\RSP1DB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+CmdRunner.cpp
+ScmConnector.cpp
+Logger Message: building RELEASE Target
+exporting StringSubstituter
+exporting ScmConnector
+exporting SrvStart
+exporting CmdRunner
+ServiceManager.cpp
+Logger Message: building RELEASE Target
+exporting ScmConnector
+exporting SrvStart
+SrvStart.cpp
+Logger Message: building RELEASE Target
+exporting StringSubstituter
+exporting ScmConnector
+exporting SrvStart
+exporting CmdRunner
+exporting ServiceManager
+StringSubstituter.cpp
+Logger Message: building RELEASE Target
+exporting SrvStart
+*** SRVSTART version 1.10 Copyright (C) 1998 - 2000 Nick Rozanski (Nick@Rozanski.com)
+Generating Code...
+Logger Message: building RELEASE Target
+exporting StringSubstituter
+Linking...
+   Creating library Release/srvstart.lib and object Release/srvstart.exp
+
+
+
+<h3>Results</h3>
+srvstart.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: dll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Debug/srvstart.res" /i "\Home\Author\srvstart.v110" /d "_DEBUG" "D:\Home\Author\srvstart.v110\srvstart.rc"" 
+Creating temporary file "C:\TEMP\RSP1DF.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DLL_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Home\Author\srvstart.v110\dll\CmdRunner.cpp"
+"D:\Home\Author\srvstart.v110\dll\ScmConnector.cpp"
+"D:\Home\Author\srvstart.v110\dll\ServiceManager.cpp"
+"D:\Home\Author\srvstart.v110\dll\SrvStart.cpp"
+"D:\Home\Author\srvstart.v110\dll\StringSubstituter.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP1DF.tmp" 
+Creating temporary file "C:\TEMP\RSP1E0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mpr.lib logger.lib /nologo /dll /incremental:yes /pdb:"Debug/srvstart.pdb" /debug /machine:I386 /out:"Debug\srvstart.dll" /implib:"Debug/srvstart.lib" /pdbtype:sept 
+.\Debug\CmdRunner.obj
+.\Debug\ScmConnector.obj
+.\Debug\ServiceManager.obj
+.\Debug\SrvStart.obj
+.\Debug\StringSubstituter.obj
+.\Debug\srvstart.res
+]
+Creating command line "link.exe @C:\TEMP\RSP1E0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+CmdRunner.cpp
+ScmConnector.cpp
+Logger Message: building DEBUG Target
+exporting StringSubstituter
+exporting ScmConnector
+exporting SrvStart
+exporting CmdRunner
+ServiceManager.cpp
+Logger Message: building DEBUG Target
+exporting ScmConnector
+exporting SrvStart
+SrvStart.cpp
+Logger Message: building DEBUG Target
+exporting StringSubstituter
+exporting ScmConnector
+exporting SrvStart
+exporting CmdRunner
+exporting ServiceManager
+StringSubstituter.cpp
+Logger Message: building DEBUG Target
+exporting SrvStart
+*** SRVSTART version 1.10 [debug] Copyright (C) 1998 - 2000 Nick Rozanski (Nick@Rozanski.com)
+Generating Code...
+Logger Message: building DEBUG Target
+exporting StringSubstituter
+Linking...
+   Creating library Debug/srvstart.lib and object Debug/srvstart.exp
+
+
+
+<h3>Results</h3>
+srvstart.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: exe - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Release/srvstart.res" /i "\Home\Author\srvstart.v110" /d "NDEBUG" "D:\Home\Author\srvstart.v110\srvstart.rc"" 
+Creating temporary file "C:\TEMP\RSP1E4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Home\Author\srvstart.v110\exe\ArgumentList.cpp"
+"D:\Home\Author\srvstart.v110\exe\ConfigurationFile.cpp"
+"D:\Home\Author\srvstart.v110\exe\exe.cpp"
+"D:\Home\Author\srvstart.v110\exe\Validation.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP1E4.tmp" 
+Creating temporary file "C:\TEMP\RSP1E5.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib logger.lib ..\dll\Release\SrvStart.lib /nologo /subsystem:console /incremental:no /pdb:"Release/srvstart.pdb" /machine:I386 /out:"Release/srvstart.exe" 
+.\Release\ArgumentList.obj
+.\Release\ConfigurationFile.obj
+.\Release\exe.obj
+.\Release\Validation.obj
+.\Release\srvstart.res
+]
+Creating command line "link.exe @C:\TEMP\RSP1E5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ArgumentList.cpp
+ConfigurationFile.cpp
+Logger Message: building RELEASE Target
+exe.cpp
+Logger Message: building RELEASE Target
+Validation.cpp
+Logger Message: building RELEASE Target
+importing CmdRunner
+importing SrvStart
+importing ServiceManager
+importing StringSubstituter
+*** SRVSTART version 1.10 Copyright (C) 1998 - 2000 Nick Rozanski (Nick@Rozanski.com)
+Generating Code...
+Logger Message: building RELEASE Target
+Linking...
+
+
+
+<h3>Results</h3>
+srvstart.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: exe - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Debug/srvstart.res" /i "\Home\Author\srvstart.v110" /d "_DEBUG" "D:\Home\Author\srvstart.v110\srvstart.rc"" 
+Creating temporary file "C:\TEMP\RSP1E7.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Home\Author\srvstart.v110\exe\ArgumentList.cpp"
+"D:\Home\Author\srvstart.v110\exe\ConfigurationFile.cpp"
+"D:\Home\Author\srvstart.v110\exe\exe.cpp"
+"D:\Home\Author\srvstart.v110\exe\Validation.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP1E7.tmp" 
+Creating temporary file "C:\TEMP\RSP1E8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib logger.lib ..\dll\Debug\SrvStart.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/srvstart.pdb" /map:"Debug/srvstart.map" /debug /machine:I386 /out:"Debug/srvstart.exe" /pdbtype:sept 
+.\Debug\ArgumentList.obj
+.\Debug\ConfigurationFile.obj
+.\Debug\exe.obj
+.\Debug\Validation.obj
+.\Debug\srvstart.res
+]
+Creating command line "link.exe @C:\TEMP\RSP1E8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ArgumentList.cpp
+ConfigurationFile.cpp
+Logger Message: building DEBUG Target
+exe.cpp
+Logger Message: building DEBUG Target
+Validation.cpp
+Logger Message: building DEBUG Target
+importing CmdRunner
+importing SrvStart
+importing ServiceManager
+importing StringSubstituter
+*** SRVSTART version 1.10 [debug] Copyright (C) 1998 - 2000 Nick Rozanski (Nick@Rozanski.com)
+Generating Code...
+Logger Message: building DEBUG Target
+Linking...
+
+
+
+<h3>Results</h3>
+srvstart.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

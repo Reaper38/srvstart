@@ -1,0 +1,89 @@
+﻿  CmdRunner.cpp
+  Logger Message: building DEBUG Target
+  exporting StringSubstituter
+  exporting ScmConnector
+  exporting SrvStart
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.h(104,4): warning C4091: 'typedef ': ignored on left of 'SrvStart::SRVSTART_EXCEPTION' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\ScmConnector.h(102): warning C4091: 'typedef ': ignored on left of 'SrvStart::ScmConnector::SCM_STATUSES' when no variable is declared
+  exporting CmdRunner
+E:\Users\Eugen\Source\srvstart\srvstart\dll\CmdRunner.h(109): warning C4091: 'typedef ': ignored on left of 'SrvStart::CmdRunner::START_MODES' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\CmdRunner.h(110): warning C4091: 'typedef ': ignored on left of 'SrvStart::CmdRunner::EXECUTION_PRIORITIES' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\CmdRunner.h(111): warning C4091: 'typedef ': ignored on left of 'SrvStart::CmdRunner::SHUTDOWN_METHODS' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\CmdRunner.h(183): warning C4091: 'typedef ': ignored on left of 'SrvStart::CmdRunner::WATCH_OUTCOMES' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\CmdRunner.cpp(92,35): warning C4091: 'typedef ': ignored on left of 'STARTED_PROCESS_STATUS' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\CmdRunner.cpp(594,1): warning C4996: '_searchenv': This function or variable may be unsafe. Consider using _searchenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(1254): message : see declaration of '_searchenv'
+  ScmConnector.cpp
+  Logger Message: building DEBUG Target
+  exporting ScmConnector
+  exporting SrvStart
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.h(104,4): warning C4091: 'typedef ': ignored on left of 'SrvStart::SRVSTART_EXCEPTION' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\ScmConnector.h(102): warning C4091: 'typedef ': ignored on left of 'SrvStart::ScmConnector::SCM_STATUSES' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\ScmConnector.cpp(121,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\ScmConnector.cpp(247,35): warning C4244: 'initializing': conversion from 'uintptr_t' to 'unsigned long', possible loss of data
+  ServiceManager.cpp
+  Logger Message: building DEBUG Target
+  exporting StringSubstituter
+  exporting ScmConnector
+  exporting SrvStart
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.h(104,4): warning C4091: 'typedef ': ignored on left of 'SrvStart::SRVSTART_EXCEPTION' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\ScmConnector.h(102): warning C4091: 'typedef ': ignored on left of 'SrvStart::ScmConnector::SCM_STATUSES' when no variable is declared
+  exporting CmdRunner
+E:\Users\Eugen\Source\srvstart\srvstart\dll\CmdRunner.h(109): warning C4091: 'typedef ': ignored on left of 'SrvStart::CmdRunner::START_MODES' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\CmdRunner.h(110): warning C4091: 'typedef ': ignored on left of 'SrvStart::CmdRunner::EXECUTION_PRIORITIES' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\CmdRunner.h(111): warning C4091: 'typedef ': ignored on left of 'SrvStart::CmdRunner::SHUTDOWN_METHODS' when no variable is declared
+E:\Users\Eugen\Source\srvstart\srvstart\dll\CmdRunner.h(183): warning C4091: 'typedef ': ignored on left of 'SrvStart::CmdRunner::WATCH_OUTCOMES' when no variable is declared
+  exporting ServiceManager
+  SrvStart.cpp
+  Logger Message: building DEBUG Target
+  exporting SrvStart
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.h(104,4): warning C4091: 'typedef ': ignored on left of 'SrvStart::SRVSTART_EXCEPTION' when no variable is declared
+  *** SRVSTART version 1.20 [debug] Copyright (C) 1998 - 2000 Nick Rozanski (Nick@Rozanski.com)
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(162,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(163,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(164,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(171,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(175,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(179,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(183,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(187,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(191,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(195,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(199,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\SrvStart.cpp(203,1): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+  StringSubstituter.cpp
+  Logger Message: building DEBUG Target
+  exporting StringSubstituter
+E:\Users\Eugen\Source\srvstart\srvstart\dll\StringSubstituter.cpp(175,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Users\Eugen\Source\srvstart\srvstart\dll\StringSubstituter.cpp(180,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\StringSubstituter.cpp(214,52): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Users\Eugen\Source\srvstart\srvstart\dll\StringSubstituter.cpp(227,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Users\Eugen\Source\srvstart\srvstart\dll\StringSubstituter.cpp(218,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\StringSubstituter.cpp(219,1): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : see declaration of 'strcat'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\StringSubstituter.cpp(220,1): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90): message : see declaration of 'strcat'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\StringSubstituter.cpp(231,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+E:\Users\Eugen\Source\srvstart\srvstart\dll\StringSubstituter.cpp(378,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1274,5): warning MSB8012: TargetPath(E:\Users\Eugen\Source\srvstart\srvstart\x64\Debug\dll.dll) does not match the Linker's OutputFile property value (E:\Users\Eugen\Source\srvstart\srvstart\x64\Debug\Srvstart.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1276,5): warning MSB8012: TargetName(dll) does not match the Linker's OutputFile property value (Srvstart). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library .\Debug\srvstart.lib and object .\Debug\srvstart.exp
+  dll.vcxproj -> E:\Users\Eugen\Source\srvstart\srvstart\x64\Debug\dll.dll
